@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="ChromTesting">
+  	<parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.axisBank.test.AxisBank_TestCase"/>
+    </classes>
+  </test> 
+  <test name="IETest">
+  <parameter name="browser" value="IE" />
+    <classes>
+      <class name="com.axisBank.test.AxisBank_TestCase"/>
+    </classes>
+  </test> 
+</suite> 

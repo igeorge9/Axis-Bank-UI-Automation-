@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ChromTesting(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.axisBank.test.AxisBank_TestCase">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="testCase"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.axisBank.test.AxisBank_TestCase -->
+    </classes>
+  </test> <!-- ChromTesting(failed) -->
+  <test thread-count="5" name="IETest(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.axisBank.test.AxisBank_TestCase">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="testCase"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.axisBank.test.AxisBank_TestCase -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
